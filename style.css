@@ -46,6 +46,7 @@ html, body{
     gap: 0;
     border-radius: 0.4rem;
     box-shadow: 0 10px 1rem rgb(201, 201, 201);
+    height: 35px;
 }
 
 .search-section .search-input{
@@ -62,10 +63,48 @@ html, body{
     background-color: #ed6868;
     box-sizing: border-box;
     border: none;
-    box-sizing: border-box;
+    height: 35px;
     border-radius: 0.4rem;
+    cursor: pointer;
 }
 
 .search-section .search-icon img{
+    padding-top: 0.2rem;
+}
+
+.notification-section{
+    display: flex;
+    margin: 2rem 0;
+    gap: 0.5rem;
+    text-align: center;
+    justify-content: center;
+    height: 35px;
+}
+
+.notification-section .notification-icon{
+    background-color: #ed6868;
+    box-sizing: border-box;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    height: 35px;
+    cursor: pointer;
+}
+
+.notification-icon img{
+    padding-top: 0.2rem;
+}
+
+.notification-section .calendar-icon{
+    background-color: #ed6868;
+    box-sizing: border-box;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    height: 35px;
+    cursor: pointer;
+}
+
+.calendar-icon img{
     padding-top: 0.2rem;
 }
