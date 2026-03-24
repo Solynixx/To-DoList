@@ -42,7 +42,7 @@ html, body{
     margin: 2rem 0;
     text-align: center;
     justify-content: center;
-    width: 50%;
+    width: 60%;
     gap: 0;
     border-radius: 0.4rem;
     box-shadow: 0 10px 1rem rgb(201, 201, 201);
@@ -107,4 +107,19 @@ html, body{
 
 .calendar-icon img{
     padding-top: 0.2rem;
+}
+
+.date-section{
+    display: flex;
+    margin: 2rem 0;
+    gap: 0.5rem;
+    text-align: center;
+    justify-content: center;
+    height: 35px;
+    flex-direction: column;
+}
+
+.date-section #date{
+    color: rgb(77, 198, 238);
+    font-weight: bold;
 }
