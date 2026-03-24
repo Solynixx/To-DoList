@@ -6,31 +6,51 @@ html, body{
     font-family: roboto;
 }
 
+.site-header{
+    display: flex;
+    padding: 0 2.5rem;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #fff5ee;
+}
+
+.site-header .title{
+    padding: 0.5rem;
+}
+
 .first-word{
     color: #ed6868;
     font-size: 30px;
     font-family: poppins;
+    font-weight: bold;
 }
 
 .second-word{
     color: #000000;
     font-size: 30px;
     font-family: poppins;
+    font-weight: bold;
 }
 
-.site-header{
-    display: flex;
-    border: 1px solid black;
-    padding: 10px;
-    text-align: center;
-    justify-content: space-between;
-}
 
 .search-section{
     display: flex;
     padding: 1.5rem 0;
     text-align: center;
     justify-content: center;
-    border: 1px solid black;
     width: 25%;
+}
+
+.search-section .search-input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 0.5rem 0 0 0.5rem;
+    outline: none;
+    color: rgb(255, 255, 255);
+}
+
+.search-section .search-icon{
+    background-color: #ed6868;
 }
