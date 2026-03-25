@@ -123,3 +123,36 @@ html, body{
     color: rgb(77, 198, 238);
     font-weight: bold;
 }
+
+.main-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    margin-top: 2rem;
+}
+
+
+.sidebar-left{
+    background-color: #ed6868;
+    border: 1px solid black;
+    box-shadow: 0 0 0.5rem rgb(97, 97, 97);
+    border-radius: 0 0.4rem 0.4rem 0;
+    width: 25%;
+}
+
+.sidebar-menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-menu li{
+    color: #fff5ee;
+    cursor: pointer;
+}
+
+.dashboard-icon{
+    margin: 0 auto;
+    text-align: center;
+}
