@@ -164,10 +164,22 @@ html, body {
     font-size: 18px;
     cursor: pointer;
     width: fit-content;
-    vertical-align: center;
+    text-align: center;
+}
+
+.sidebar-menu li a img{
+    width: 20px;
+    height: 20px;
 }
 
 .dashboard-icon{
     margin: 0 auto;
     text-align: center;
+}
+
+.title-right{
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    margin-left: 32px;
 }
