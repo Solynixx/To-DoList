@@ -141,9 +141,10 @@ html, body {
     background-color: #ed6868;
     box-shadow: 0 0 0.5rem rgb(97, 97, 97);
     border-radius: 0 0.4rem 0.4rem 0;
-    width: 25%;
+    width: 15%;
     overflow-y: auto;
     height: 100%;
+    display: flex;
     flex-direction: column;
 }
 
@@ -163,6 +164,7 @@ html, body {
     justify-content: space-between;
     font-size: 18px;
     gap: 10px;
+    cursor: pointer;
 }
 
 .logout-section button img{
@@ -207,8 +209,42 @@ html, body {
     margin-left: 32px;
 }
 
-.header-right{
+.sidebar-right{
+    width: 80%;
     display: flex;
-    border: 1px solid black;
-    width: 100%;
+    flex-direction: column;
+}
+
+.header-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-right {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.header-right button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #ed6868;
+    color: #ed6868;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.header-right .invite-icon {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) saturate(100%) invert(44%) sepia(61%) saturate(1036%) hue-rotate(323deg) brightness(120%) contrast(85%);
+}
+
+.sidebar-right .main-container-right{
+    border: 2px solid #b4b4b4;
+    box-shadow: 0 0 5px rgb(180, 180, 180);
+    margin: 1rem 0 1rem 2rem;
+    padding: 1rem;
+    flex: 1
 }
