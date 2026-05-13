@@ -2,7 +2,6 @@ html, body {
     height: 100vh;          
     margin: 0;
     padding: 0;
-    background: linear-gradient(180deg, #d6d6d6, #b4b4b4);
     font-family: roboto;
     overflow: hidden;        
     display: flex;           
@@ -128,13 +127,13 @@ html, body {
 
 .main-container{
     display: flex;
-    flex: 1;
     margin-top: 2rem;
     padding: 0;
     display: flex;
     overflow: hidden;
     padding-bottom: 2rem;
     gap: 20px;
+    height: 100%;
 }
 
 
@@ -143,8 +142,32 @@ html, body {
     box-shadow: 0 0 0.5rem rgb(97, 97, 97);
     border-radius: 0 0.4rem 0.4rem 0;
     width: 25%;
-    height: 100%;
     overflow-y: auto;
+    height: 100%;
+    flex-direction: column;
+}
+
+.logout-section{
+    margin-top: 10rem;
+    padding: 1rem;
+}
+
+.logout-section button {
+    border: none;
+    height: auto;
+    color: #fff5ee;
+    background-color: #ed6868;
+    text-align: center;
+    margin: auto 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    gap: 10px;
+}
+
+.logout-section button img{
+    width: 20px;
+    height: 20px;
 }
 
 .sidebar-menu{
@@ -182,4 +205,10 @@ html, body {
     margin: 0;
     font-size: 24px;
     margin-left: 32px;
+}
+
+.header-right{
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
 }
