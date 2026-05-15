@@ -258,6 +258,10 @@ html, body {
     height: 100%;
     border-radius: 10px;
     box-shadow: 0 9px 10px rgba(183, 183, 183, 0.442);
+    padding: 0 2rem;
+    display: flex;
+    gap: 10px;
+    color: #ed6868;
 }
 
 .todo-section{
@@ -281,3 +285,34 @@ html, body {
     box-shadow: 0 9px 10px rgba(183, 183, 183, 0.442);
 }
 
+.task-icon{
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) saturate(100%) invert(78%) sepia(2%) saturate(14%) hue-rotate(340deg) brightness(96%) contrast(97%);
+}
+
+.task_status_icon{
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) saturate(100%) invert(78%) sepia(2%) saturate(14%) hue-rotate(340deg) brightness(96%) contrast(97%);
+}
+
+.task-status{
+    display: flex;
+    gap: 10px;
+    padding: 0 2rem;
+    color: #ed6868;
+}
+
+.completed_task_icon{
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) saturate(100%) invert(78%) sepia(2%) saturate(14%) hue-rotate(340deg) brightness(96%) contrast(97%);
+}
+
+.completed-task{
+    display: flex;
+    gap: 10px;
+    padding: 0 2rem;
+    color: #ed6868;
+}
